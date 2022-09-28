@@ -1,12 +1,5 @@
-//  npm-init pour initier package json et lier scss au css
-
-//  Dans script du package json --> 
-//  "sass": "sass --watch ./index.scss:.index.css --style compressed",
-//  "prefix": "postcss ./index.css --use autoprefixer -d .prefixed/"
-
-// Ajout autre section -->
-// "browserslist": "last 4 versions"
-// npm-run prefix
-    
-
-
+// Début : 00:08
+@import "./utils/variables";
+@import "./base/base";
+@import "./components/components";
+@import "./layouts/layout";

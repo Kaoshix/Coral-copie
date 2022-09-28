@@ -1,0 +1,20 @@
+{
+  "name": "coral-copie",
+  "version": "1.0.0",
+  "description": "Copie du figma coral",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./index.scss:style.css --style compressed", 
+    "prefix": "postcss ./index.css --use autoprefixer -d .prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaoshix/Coral-copie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaoshix/Coral-copie/issues"
+  },
+  "homepage": "https://github.com/Kaoshix/Coral-copie#readme"
+}
