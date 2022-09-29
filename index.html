@@ -7,28 +7,38 @@ Fin : 23:45 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">CORA'L</div>
-        <nav>
-            <ul>
-                <li>Handbags</li>
-                <li>Watches</li>
-                <li>Skincare</li>
-                <li>Jewellery</li>
-                <li>Apparels</li>
-            </ul>
-        </nav>
-        <div class="search-bar">
-            <!-- logo search bar -->
-            <input type="search">
+        <!-- APRES COUP création de partie left et right pour meilleur display flex -->
+        <div class="header-left-part">
+            <img class="logo" src="img/logo.svg"></img>
+            <nav>
+                <ul>
+                    <li>Handbags</li>
+                    <li>Watches</li>
+                    <li>Skincare</li>
+                    <li>Jewellery</li>
+                    <li>Apparels</li>
+                </ul>
+            </nav>
         </div>
-        <div class="top-right-icon-container">
-            <!-- logo heart human bagshop -->
+
+        <div class="header-right-part">
+            <div class="search-bar-container">
+                <!-- logo search bar -->
+                <input class="search-bar" type="search" placeholder="Search for products or brands.....">
+            </div>
+            <div class="top-right-icon-container">
+                <!-- logo heart human bagshop -->
+                logo logo logo
+            </div>
         </div>
     </header>
 
@@ -39,12 +49,11 @@ Fin : 23:45 -->
                     your order status <a href="">here</a></p>
             </div>
             <div class="second-banner">
-                <!-- image de fond -->
                 <div class="text-inside-second-banner-container">
                     <h1>Carry your Funk</h1>
-                    <p>Trendly handbags collection for you party animal</p>
+                    <p>Trendly handbags collection for your <br /> party animal</p>
                     <!-- fleche a gauche de see more -->
-                    <button>See more</button>
+                    <button class="see-more-button">--> See more</button>
                 </div>
             </div>
         </section>
@@ -53,83 +62,110 @@ Fin : 23:45 -->
             <div class="title-and-view-all">
                 <h2>New Arrivals</h2>
                 <!-- fleche a droite de view all -->
-                <p>View all</p>
+                <p>View All ></p>
             </div>
-
 
             <div class="all-articles-container">
                 <div class="one-article-container">
-                    <div class="square-article-container">
+                    <div class="square-article-container first-arrival">
                         <!-- image a l'interieur d'un carré -->
                     </div>
                     <div class="infos-article">
-                        <h3>Grande</h3>
-                        <!-- image coeur  -->
-                        <p>Blossom Pouch</p>
-                        <p>$39.49</p>
+                        <!-- APRES COUP Création d'une div pour mieux aligner les éléments -->
+                        <div class="title-article-and-heart-icon">
+                            <h3>Grande</h3>
+                            <!-- image coeur  -->
+                            <p>coeur</p>
+                        </div>
+                        <div class="sub-title-and-price">
+                            <p><span>Blossom Pouch</span></p>
+                            <p>$39.49</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="one-article-container">
-                    <div class="square-article-container">
+                    <div class="square-article-container second-arrival">
                         <!-- image a l'interieur d'un carré -->
                     </div>
                     <div class="infos-article">
-                        <h3>Coach</h3>
-                        <!-- image coeur  -->
-                        <p>Leather Coach Bag</p>
-                        <p>$54.69</p>
+                        <!-- APRES COUP Création d'une div pour mieux aligner les éléments -->
+                        <div class="title-article-and-heart-icon">
+                            <h3>Coach</h3>
+                            <!-- image coeur  -->
+                            <p>coeur</p>
+                        </div>
+                        <div class="sub-title-and-price">
+                            <p><span>Leather Coach Bag</span></p>
+                            <p>$54.69</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="one-article-container">
-                    <div class="square-article-container">
+                    <div class="square-article-container third-arrival">
                         <!-- image a l'interieur d'un carré -->
                     </div>
                     <div class="infos-article">
-                        <h3>Remus</h3>
-                        <!-- image coeur  -->
-                        <p>Brown Strap Bag</p>
-                        <p>$57.00</p>
+                        <!-- APRES COUP Création d'une div pour mieux aligner les éléments -->
+                        <div class="title-article-and-heart-icon">
+                            <h3>Remus</h3>
+                            <!-- image coeur  -->
+                            <p>coeur</p>
+                        </div>
+                        <div class="sub-title-and-price">
+                            <p><span>Brown Strap Bag</span></p>
+                            <p>$57.00</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="one-article-container">
-                    <div class="square-article-container">
+                    <div class="square-article-container fourth-arrival">
                         <!-- image a l'interieur d'un carré -->
                     </div>
                     <div class="infos-article">
-                        <h3>Boujee</h3>
-                        <!-- image coeur  -->
-                        <p>Black Bag</p>
-                        <p>$56.49</p>
+                        <!-- APRES COUP Création d'une div pour mieux aligner les éléments -->
+                        <div class="title-article-and-heart-icon">
+                            <h3>Boujee</h3>
+                            <!-- image coeur  -->
+                            <p>coeur</p>
+                        </div>
+                        <div class="sub-title-and-price">
+                            <p><span>Black Bag</span></p>
+                            <p>$56.49</p>
+                        </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
         <section class="banner-collections-section">
             <h2>Handpicked Collections</h2>
+            <!-- APRES COUP Création d'une div qui contient les carrés -->
+            <div class="collections-square-container">
+                <div class="square-article-container first-collection">
+                    <!-- image de l'article -->
+                    <h3>Personnal Care</h3>
+                </div>
 
-            <div class="square-article-container">
-                <!-- image de l'article -->
-                <h3>Personnal Care</h3>
+                <div class="square-article-container second-collection">
+                    <!-- image de l'article -->
+                    <h3>Handbags</h3>
+                </div>
+
+                <div class="square-article-container third-collection">
+                    <!-- image de l'article -->
+                    <h3>Wrist Watches</h3>
+                </div>
+
+                <div class="square-article-container fourth-collection">
+                    <!-- image de l'article -->
+                    <h3>Sun glasses</h3>
+                </div>
             </div>
 
-            <div class="square-article-container">
-                <!-- image de l'article -->
-                <h3>Handbags</h3>
-            </div>
-
-            <div class="square-article-container">
-                <!-- image de l'article -->
-                <h3>Wrist Watches</h3>
-            </div>
-
-            <div class="square-article-container">
-                <!-- image de l'article -->
-                <h3>Sun glasses</h3>
-            </div>
         </section>
 
         <section class="company-list-section">
@@ -137,26 +173,32 @@ Fin : 23:45 -->
             <div class="company-list">
                 <div class="one-company-container">
                     <!-- image logo de la marque -->
+                    <img src="/img/zara-logo.png" alt="">
                 </div>
 
                 <div class="one-company-container">
                     <!-- image logo de la marque -->
+                    <img src="/img/dg-logo.png" alt="">
                 </div>
 
                 <div class="one-company-container">
                     <!-- image logo de la marque -->
+                    <img src="/img/hm-logo.png" alt="">
                 </div>
 
                 <div class="one-company-container">
                     <!-- image logo de la marque -->
+                    <img src="/img/chanel-logo.png" alt="">
                 </div>
 
                 <div class="one-company-container">
                     <!-- image logo de la marque -->
+                    <img src="/img/prada-logo.png" alt="">
                 </div>
 
                 <div class="one-company-container">
                     <!-- image logo de la marque -->
+                    <img src="/img/biba-logo.png" alt="">
                 </div>
             </div>
         </section>
@@ -165,68 +207,67 @@ Fin : 23:45 -->
             <div class="top-banner-in-bottom-container">
                 <!-- image de fond -->
                 <div class="text-in-top-banner-bottom">
-                    <p>Lifestyle</p>
-                    <h2>Makeup Accessories from Top Brands</h2>
+                    <p>LIFESTYLE</p>
+                    <h2>Makeup Accessories <br /> from Top Brands</h2>
                 </div>
             </div>
-
-            <div class="bottom-banner-in-bottom-container">
-                <!-- image de fond -->
-                <div class="text-in-bottom-banner-bottom">
-                    <h2>Skincare Essentials</h2>
+            <div class="bottom-2-banners-container">
+                <div class="bottom-banner-in-bottom-container-1">
+                    <!-- image de fond -->
+                    <h2 class="text-in-bottom-banner-bottom>Skincare">Skincare <br /> Essentials</h2>
                     <!-- image fleche vers la droite -->
                 </div>
-            </div>
-
-            <div class="bottom-banner-in-bottom-container">
-                <!-- image de fond -->
-                <div class="text-in-bottom-banner-bottom">
-                    <h2>Facepacks & Peels</h2>
-                    <!-- image fleche vers la droite -->
+                <div class="bottom-banner-in-bottom-container-2">
+                    <!-- image de fond -->
+                    <div class="text-in-bottom-banner-bottom">
+                        <h2>Facepacks <br />& Peels</h2>
+                        <!-- image fleche vers la droite -->
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="footer-one-row-container">
-            <h4>Shop by Category</h4>
-            <ul>
-                <li>Skincare</li>
-                <li>Personal Care</li>
-                <li>Handbags</li>
-                <li>Apparels</li>
-                <li>Watches</li>
-                <li>Eye Wear</li>
-                <li>Jewellery</li>
-            </ul>
+        <div class="footer-left-part">
+            <div class="footer-one-row-container">
+                <h4>Shop by Category</h4>
+                <ul>
+                    <li>Skincare</li>
+                    <li>Personal Care</li>
+                    <li>Handbags</li>
+                    <li>Apparels</li>
+                    <li>Watches</li>
+                    <li>Eye Wear</li>
+                    <li>Jewellery</li>
+                </ul>
+            </div>
+            <div class="footer-one-row-container">
+                <h4>About</h4>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+            <div class="footer-one-row-container">
+                <h4>Policy</h4>
+                <ul>
+                    <li>Return Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Sitemap</li>
+                    <li>Security</li>
+                    <li>Privacy</li>
+                    <li>EPR Compliance</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="footer-one-row-container">
-            <h4>About</h4>
-            <ul>
-                <li>Contact Us</li>
-                <li>About Us</li>
-                <li>Careers</li>
-                <li>Press</li>
-            </ul>
-        </div>
-
-        <div class="footer-one-row-container">
-            <h4>Policy</h4>
-            <ul>
-                <li>Return Policy</li>
-                <li>Terms of Use</li>
-                <li>Sitemap</li>
-                <li>Security</li>
-                <li>Privacy</li>
-                <li>EPR Compliance</li>
-            </ul>
-        </div>
-
-        <div class="footer-one-row-container">
+        <div class="footer-right-part">
             <div class="icons-container">
                 <!-- logo des reseaux sociaux -->
+                icone icone icone icone
             </div>
 
             <div class="position">

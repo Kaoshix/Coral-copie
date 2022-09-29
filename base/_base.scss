@@ -48,3 +48,17 @@ table {
 	border-spacing: 0;
 }
 
+input {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	width: 300px;
+}
+
+input:focus {
+	outline: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+	color: $primary-color;
+}
