@@ -50,14 +50,20 @@
 
             .see-more-button {
                 margin-left: 50px;
-                padding: 15px;
-                padding-left: 50px;
-                padding-right: 50px;
+                padding: 10px;
+                padding-left: 40px;
+                padding-right: 45px;
                 border-radius: 8px;
                 background-color: $secondary-color;
                 color: white;
                 font-size: 16px;
                 border: none;
+                display: flex;
+                align-items: center;
+
+                span {
+                    padding-left: 10px;
+                }
             }
         }
     }
@@ -77,10 +83,18 @@
             font-size: 34px;
         }
 
-        p {
-            font-weight: 600;
-            font-size: 14px;
-            color: $secondary-color;
+        .view-and-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 20px;
+
+            p {
+                font-weight: 600;
+                font-size: 14px;
+                color: $secondary-color;
+                padding-right: 10px;
+            }
         }
     }
 
@@ -277,7 +291,12 @@
                 top: 40px;
                 text-align: right;
             }
-            
+
+            img {
+                position: absolute;
+                right: 45px;
+                bottom: 30px;
+            }
         }
     
         .bottom-banner-in-bottom-container-2 {
@@ -297,36 +316,12 @@
                 top: 40px;
                 text-align: right;
             }
+
+            img {
+                position: absolute;
+                right: 45px;
+                bottom: 30px;
+            }
         }
     } 
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 35px 60px 80px 0px;
-    background: $secondary-color;
-    color: #fff;
-
-    .footer-left-part {
-        width: 50%;
-        display: flex;
-
-        .footer-one-row-container {
-            padding-left: 50px;
-
-            h4 {
-                font-weight: 500;
-                font-size: 16px;
-                margin-bottom: 20px;
-            }
-
-            ul li {
-                color: rgb(182, 182, 182);
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.9;
-            }
-        }
-    }
 }
