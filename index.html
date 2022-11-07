@@ -1,5 +1,3 @@
-<!-- Debut : 23:00
-Fin : 23:45 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,48 +14,49 @@ Fin : 23:45 -->
 
 <body>
     <header>
-        <!-- APRES COUP création de partie left et right pour meilleur display flex -->
-        <div class="header-left-part">
-            <img class="logo" src="img/logo.svg"></img>
-            <nav>
+        <div class="header-left">
+            <a href="#" class="header__logo"><img src="img/logo.svg"></img></a>
+            <nav class="header__nav">
                 <ul>
-                    <li>Handbags</li>
-                    <li>Watches</li>
-                    <li>Skincare</li>
-                    <li>Jewellery</li>
-                    <li>Apparels</li>
+                    <li><a href="#">Handbags</a></li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Skincare</a></li>
+                    <li><a href="#">Jewellery</a></li>
+                    <li><a href="#">Apparels</a></li>
                 </ul>
             </nav>
         </div>
 
-        <div class="header-right-part">
-            <div class="search-bar-container">
-                <!-- logo search bar -->
-                <img src="/icons/search.svg" alt="">
-                <input class="search-bar" type="search" placeholder="Search for products or brands.....">
+        <div class="header-right">
+            <div class="search-bar">
+                <img src="/icons/search.svg" alt="search-icon" class="search-bar__icon">
+                <input type="search" placeholder="Search for products or brands....." class="search-bar__input">
             </div>
-            <div class="top-right-icon-container">
-                <!-- logo heart human bagshop -->
-
-                <img src="/icons/heart-icon.svg" alt="">
-                <img src="/icons/human-icon.svg" alt="">
-                <img src="/icons/shop-icon.svg" alt="">
+            <div class="header__icons">
+                <a href="#"><img src="/icons/heart-icon.svg" alt="heart-icon" class="header-icon"></a>
+                <a href="#"><img src="/icons/profil-icon.svg" alt="profil-icon" class="header-icon"></a>
+                <a href="#"><img src="/icons/shop-icon.svg" alt="shop-icon"></a>
             </div>
         </div>
     </header>
+    <!--####################################################################-->
+    <!--########################### Banner info ############################-->
+    <!--####################################################################-->
+    <div class="banner-info">
+        <p>We are currently experiencing local customs clearance delays. For the latest updates, please check
+            your order status <a href="#">here</a></p>
+    </div>
 
     <main>
-        <section class="banners-section">
-            <div class="first-banner">
-                <p>We are currently experiencing local customs clearance delays. For the latest updates, please check
-                    your order status <a href="">here</a></p>
-            </div>
-            <div class="second-banner">
-                <div class="text-inside-second-banner-container">
+        <!--####################################################################-->
+        <!--########################### Main banner ############################-->
+        <!--####################################################################-->
+        <section class="main-banner-section">
+            <div class="main-banner">
+                <div class="main-banner__texts">
                     <h1>Carry your Funk</h1>
                     <p>Trendly handbags collection for your <br /> party animal</p>
-                    <!-- fleche a gauche de see more -->
-                    <button class="see-more-button">
+                    <button class="main-banner__button">
                         <img src="/icons/arrow-icon-top-banner.svg" alt="">
                         <span>See more</span>
                     </button>
@@ -65,118 +64,108 @@ Fin : 23:45 -->
             </div>
         </section>
 
-        <section class="news-container-section">
-            <div class="title-and-view-all">
+        <!--####################################################################-->
+        <!--####################### New arrivals section #######################-->
+        <!--####################################################################-->
+        <section class="new-arrivals-section">
+            <div class="news-head">
                 <h2>New Arrivals</h2>
-                <!-- fleche a droite de view all -->
-                <div class="view-and-icon">
-                    <p>View All</p>
-                    <img src="/icons/chevron-view-all.svg" alt="">
-                </div>
-
+                <p class="news-head__view-all">View All</p>
             </div>
 
-            <div class="all-articles-container">
-                <div class="one-article-container">
-                    <div class="square-article-container first-arrival">
-                        <!-- image a l'interieur d'un carré -->
+            <div class="new-articles">
+                <div class="new-article">
+                    <div class="new-article__image">
+                        <img src="img/first-bag-new.png" alt="">
                     </div>
-                    <div class="infos-article">
-                        <!-- APRES COUP Création d'une div pour mieux aligner les éléments -->
-                        <div class="title-article-and-heart-icon">
-                            <h3>Grande</h3>
-                            <!-- image coeur  -->
+                    <div class="new-article__info">
+                        <div class="info-head">
+                            <h3 class="new-article__name">Grande</h3>
                             <img src="/icons/heart-wish.svg" alt="">
                         </div>
-                        <div class="sub-title-and-price">
+                        <div class="new-article__subtitle">
                             <p><span>Blossom Pouch</span></p>
                             <p>$39.49</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="one-article-container">
-                    <div class="square-article-container second-arrival">
-                        <!-- image a l'interieur d'un carré -->
+                <div class="new-article">
+                    <div class="new-article__image">
+                        <img src="img/second-bag-new.png" alt="">
                     </div>
-                    <div class="infos-article">
-                        <!-- APRES COUP Création d'une div pour mieux aligner les éléments -->
-                        <div class="title-article-and-heart-icon">
-                            <h3>Coach</h3>
-                            <!-- image coeur  -->
+                    <div class="new-article__info">
+                        <div class="info-head">
+                            <h3 class="new-article__name">Coach</h3>
                             <img src="/icons/heart-wish.svg" alt="">
                         </div>
-                        <div class="sub-title-and-price">
+                        <div class="new-article__subtitle">
                             <p><span>Leather Coach Bag</span></p>
                             <p>$54.69</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="one-article-container">
-                    <div class="square-article-container third-arrival">
-                        <!-- image a l'interieur d'un carré -->
+                <div class="new-article">
+                    <div class="new-article__image">
+                        <img src="img/third-bag-new.png" alt="">
                     </div>
-                    <div class="infos-article">
-                        <!-- APRES COUP Création d'une div pour mieux aligner les éléments -->
-                        <div class="title-article-and-heart-icon">
-                            <h3>Remus</h3>
-                            <!-- image coeur  -->
+                    <div class="new-article__info">
+                        <div class="info-head">
+                            <h3 class="new-article__name">Remus</h3>
                             <img src="/icons/heart-wish.svg" alt="">
                         </div>
-                        <div class="sub-title-and-price">
+                        <div class="new-article__subtitle">
                             <p><span>Brown Strap Bag</span></p>
                             <p>$57.00</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="one-article-container">
-                    <div class="square-article-container fourth-arrival">
-                        <!-- image a l'interieur d'un carré -->
+                <div class="new-article">
+                    <div class="new-article__image">
+                        <img src="img/fourth-bag-new.png" alt="">
                     </div>
-                    <div class="infos-article">
-                        <!-- APRES COUP Création d'une div pour mieux aligner les éléments -->
-                        <div class="title-article-and-heart-icon">
-                            <h3>Boujee</h3>
-                            <!-- image coeur  -->
+                    <div class="new-article__info">
+                        <div class="info-head">
+                            <h3 class="new-article__name">Boujee</h3>
                             <img src="/icons/heart-wish.svg" alt="">
                         </div>
-                        <div class="sub-title-and-price">
+                        <div class="new-article__subtitle">
                             <p><span>Black Bag</span></p>
                             <p>$56.49</p>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         </section>
 
+        <!--####################################################################-->
+        <!--#################### Banner collection section #####################-->
+        <!--####################################################################-->
         <section class="banner-collections-section">
             <h2>Handpicked Collections</h2>
-            <!-- APRES COUP Création d'une div qui contient les carrés -->
-            <div class="collections-square-container">
-                <div class="square-article-container first-collection">
-                    <!-- image de l'article -->
-                    <h3>Personnal Care</h3>
+            <div class="collection-articles">
+                <div class="collection-article">
+                    <img src="img/first-collection.png" alt="" class="collection-article__image">
+                    <h3 class="collection-article__name">Personnal Care</h3>
                 </div>
 
-                <div class="square-article-container second-collection">
-                    <!-- image de l'article -->
-                    <h3>Handbags</h3>
+                <div class="collection-article">
+                    <img src="img/second-collection.png" alt="" class="collection-article__image">
+                    <h3 class="collection-article__name">Handbags</h3>
                 </div>
 
-                <div class="square-article-container third-collection">
-                    <!-- image de l'article -->
-                    <h3>Wrist Watches</h3>
+                <div class="collection-article">
+                    <img src="img/third-collection.png" alt="" class="collection-article__image">
+                    <h3 class="collection-article__name">Wrist Watches</h3>
                 </div>
 
-                <div class="square-article-container fourth-collection">
-                    <!-- image de l'article -->
-                    <h3>Sun glasses</h3>
+                <div class="collection-article">
+                    <img src="img/fourth-collection.png" alt="" class="collection-article__image">
+                    <h3 class="collection-article__name">Sun glasses</h3>
                 </div>
             </div>
-
         </section>
 
         <section class="company-list-section">
