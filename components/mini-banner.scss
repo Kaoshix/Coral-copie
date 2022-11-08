@@ -1,0 +1,21 @@
+.mini-banner {
+    width: 604px;
+    height: 228px;
+    border-radius: 16px;
+
+    .mini-banner__text {
+        color: #A53F64;
+        font-weight: 700;
+        font-size: 40px;
+        position: absolute;
+        right: 45px;
+        top: 40px;
+        text-align: right;
+    }
+
+    .mini-banner__arrow {
+        position: absolute;
+        right: 45px;
+        bottom: 30px;
+    }
+}

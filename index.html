@@ -13,10 +13,13 @@
 </head>
 
 <body>
+    <!--####################################################################-->
+    <!--############################## Header ##############################-->
+    <!--####################################################################-->
     <header>
-        <div class="header-left">
-            <a href="#" class="header__logo"><img src="img/logo.svg"></img></a>
-            <nav class="header__nav">
+        <div class="header-col-6">
+            <a href="#" class="main-logo"><img src="img/logo.svg"></img></a>
+            <nav class="header-nav">
                 <ul>
                     <li><a href="#">Handbags</a></li>
                     <li><a href="#">Watches</a></li>
@@ -27,12 +30,12 @@
             </nav>
         </div>
 
-        <div class="header-right">
+        <div class="header-col-6">
             <div class="search-bar">
                 <img src="/icons/search.svg" alt="search-icon" class="search-bar__icon">
                 <input type="search" placeholder="Search for products or brands....." class="search-bar__input">
             </div>
-            <div class="header__icons">
+            <div class="header-icons">
                 <a href="#"><img src="/icons/heart-icon.svg" alt="heart-icon" class="header-icon"></a>
                 <a href="#"><img src="/icons/profil-icon.svg" alt="profil-icon" class="header-icon"></a>
                 <a href="#"><img src="/icons/shop-icon.svg" alt="shop-icon"></a>
@@ -52,7 +55,7 @@
         <!--########################### Main banner ############################-->
         <!--####################################################################-->
         <section class="main-banner-section">
-            <div class="main-banner">
+            <div class="banner main-banner">
                 <div class="main-banner__texts">
                     <h1>Carry your Funk</h1>
                     <p>Trendly handbags collection for your <br /> party animal</p>
@@ -70,71 +73,56 @@
         <section class="new-arrivals-section">
             <div class="news-head">
                 <h2>New Arrivals</h2>
-                <p class="news-head__view-all">View All</p>
+                <p class="view-all">View All</p>
             </div>
 
             <div class="new-articles">
-                <div class="new-article">
-                    <div class="new-article__image">
-                        <img src="img/first-bag-new.png" alt="">
+
+                <div class="article">
+                    <img src="/img/first-bag-new.png" alt="" class="article__image">
+                    <div class="info-head">
+                        <h3 class="article__name">Grande</h3>
+                        <img src="/icons/heart-wish.svg" alt="">
                     </div>
-                    <div class="new-article__info">
-                        <div class="info-head">
-                            <h3 class="new-article__name">Grande</h3>
-                            <img src="/icons/heart-wish.svg" alt="">
-                        </div>
-                        <div class="new-article__subtitle">
-                            <p><span>Blossom Pouch</span></p>
-                            <p>$39.49</p>
-                        </div>
+                    <div class="article__subtitle">
+                        <p><span>Blossom Pouch</span></p>
+                        <p>$39.49</p>
                     </div>
                 </div>
 
-                <div class="new-article">
-                    <div class="new-article__image">
-                        <img src="img/second-bag-new.png" alt="">
+                <div class="article">
+                    <img src="img/second-bag-new.png" alt="" class="article__image">
+                    <div class="info-head">
+                        <h3 class="article__name">Coach</h3>
+                        <img src="/icons/heart-wish.svg" alt="">
                     </div>
-                    <div class="new-article__info">
-                        <div class="info-head">
-                            <h3 class="new-article__name">Coach</h3>
-                            <img src="/icons/heart-wish.svg" alt="">
-                        </div>
-                        <div class="new-article__subtitle">
-                            <p><span>Leather Coach Bag</span></p>
-                            <p>$54.69</p>
-                        </div>
+                    <div class="article__subtitle">
+                        <p><span>Leather Coach Bag</span></p>
+                        <p>$54.69</p>
                     </div>
                 </div>
 
-                <div class="new-article">
-                    <div class="new-article__image">
-                        <img src="img/third-bag-new.png" alt="">
+                <div class="article">
+                    <img src="img/third-bag-new.png" alt="" class="article__image">
+                    <div class="info-head">
+                        <h3 class="article__name">Remus</h3>
+                        <img src="/icons/heart-wish.svg" alt="">
                     </div>
-                    <div class="new-article__info">
-                        <div class="info-head">
-                            <h3 class="new-article__name">Remus</h3>
-                            <img src="/icons/heart-wish.svg" alt="">
-                        </div>
-                        <div class="new-article__subtitle">
-                            <p><span>Brown Strap Bag</span></p>
-                            <p>$57.00</p>
-                        </div>
+                    <div class="article__subtitle">
+                        <p><span>Brown Strap Bag</span></p>
+                        <p>$57.00</p>
                     </div>
                 </div>
 
-                <div class="new-article">
-                    <div class="new-article__image">
-                        <img src="img/fourth-bag-new.png" alt="">
+                <div class="article">
+                    <img src="img/fourth-bag-new.png" alt="" class="article__image">
+                    <div class="info-head">
+                        <h3 class="article__name">Boujee</h3>
+                        <img src="/icons/heart-wish.svg" alt="">
                     </div>
-                    <div class="new-article__info">
-                        <div class="info-head">
-                            <h3 class="new-article__name">Boujee</h3>
-                            <img src="/icons/heart-wish.svg" alt="">
-                        </div>
-                        <div class="new-article__subtitle">
-                            <p><span>Black Bag</span></p>
-                            <p>$56.49</p>
-                        </div>
+                    <div class="article__subtitle">
+                        <p><span>Black Bag</span></p>
+                        <p>$56.49</p>
                     </div>
                 </div>
             </div>
@@ -143,147 +131,143 @@
         <!--####################################################################-->
         <!--#################### Banner collection section #####################-->
         <!--####################################################################-->
-        <section class="banner-collections-section">
+        <section class="collections-section">
             <h2>Handpicked Collections</h2>
             <div class="collection-articles">
-                <div class="collection-article">
-                    <img src="img/first-collection.png" alt="" class="collection-article__image">
-                    <h3 class="collection-article__name">Personnal Care</h3>
+
+                <div class="article article--collection">
+                    <img src="img/first-collection.png" alt="" class="article__image">
+                    <h3 class="article__name--collection">Personnal Care</h3>
                 </div>
 
-                <div class="collection-article">
-                    <img src="img/second-collection.png" alt="" class="collection-article__image">
-                    <h3 class="collection-article__name">Handbags</h3>
+                <div class="article article--collection">
+                    <img src="img/second-collection.png" alt="" class="article__image">
+                    <h3 class="article__name--collection">Handbags</h3>
                 </div>
 
-                <div class="collection-article">
-                    <img src="img/third-collection.png" alt="" class="collection-article__image">
-                    <h3 class="collection-article__name">Wrist Watches</h3>
+                <div class="article article--collection">
+                    <img src="img/third-collection.png" alt="" class="article__image">
+                    <h3 class="article__name--collection">Wrist Watches</h3>
                 </div>
 
-                <div class="collection-article">
-                    <img src="img/fourth-collection.png" alt="" class="collection-article__image">
-                    <h3 class="collection-article__name">Sun glasses</h3>
+                <div class="article article--collection">
+                    <img src="img/fourth-collection.png" alt="" class="article__image">
+                    <h3 class="article__name--collection">Sun glasses</h3>
                 </div>
             </div>
         </section>
 
+        <!--####################################################################-->
+        <!--###################### Compagny list section #######################-->
+        <!--####################################################################-->
         <section class="company-list-section">
             <h2>Shop by Brands</h2>
-            <div class="company-list">
-                <div class="one-company-container">
-                    <!-- image logo de la marque -->
-                    <img src="/img/zara-logo.png" alt="">
+            <div class="companies-list">
+                <div class="compagny">
+                    <img src="/img/zara-logo.png" alt="" class="compagny__image">
                 </div>
 
-                <div class="one-company-container">
-                    <!-- image logo de la marque -->
-                    <img src="/img/dg-logo.png" alt="">
+                <div class="compagny">
+                    <img src="/img/dg-logo.png" alt="" class="compagny__image">
                 </div>
 
-                <div class="one-company-container">
-                    <!-- image logo de la marque -->
-                    <img src="/img/hm-logo.png" alt="">
+                <div class="compagny">
+                    <img src="/img/hm-logo.png" alt="" class="compagny__image">
                 </div>
 
-                <div class="one-company-container">
-                    <!-- image logo de la marque -->
-                    <img src="/img/chanel-logo.png" alt="">
+                <div class="compagny">
+                    <img src="/img/chanel-logo.png" alt="" class="compagny__image">
                 </div>
 
-                <div class="one-company-container">
-                    <!-- image logo de la marque -->
-                    <img src="/img/prada-logo.png" alt="">
+                <div class="compagny">
+                    <img src="/img/prada-logo.png" alt="" class="compagny__image">
                 </div>
 
-                <div class="one-company-container">
-                    <!-- image logo de la marque -->
-                    <img src="/img/biba-logo.png" alt="">
+                <div class="compagny">
+                    <img src="/img/biba-logo.png" alt="" class="compagny__image">
                 </div>
             </div>
         </section>
 
-        <section class="other-banners-bottom-section">
-            <div class="top-banner-in-bottom-container">
-                <!-- image de fond -->
-                <div class="text-in-top-banner-bottom">
+
+        <!--####################################################################-->
+        <!--###################### Other banners section #######################-->
+        <!--####################################################################-->
+        <section class="other-banners-section">
+            <div class="banner banner-makeup">
+                <div class="banner-makeup__texts">
                     <p>LIFESTYLE</p>
                     <h2>Makeup Accessories <br /> from Top Brands</h2>
                 </div>
             </div>
-            <div class="bottom-2-banners-container">
-                <div class="bottom-banner-in-bottom-container-1">
-                    <!-- image de fond -->
-                    <h2 class="text-in-bottom-banner-bottom>Skincare">Skincare <br /> Essentials</h2>
-                    <img src="/icons/arrow-pink.svg" alt="">
-                    <!-- image fleche vers la droite -->
+            <div class="mini-banners">
+                <div class="mini-banner banner-skincare">
+                    <h2 class="mini-banner__text">Skincare <br /> Essentials</h2>
+                    <img src="/icons/arrow-pink.svg" alt="" class="mini-banner__arrow">
                 </div>
-                <div class="bottom-banner-in-bottom-container-2">
-                    <!-- image de fond -->
-                    <div class="text-in-bottom-banner-bottom">
-                        <h2>Facepacks <br />& Peels</h2>
-                        <img src="/icons/arrow-blue.svg" alt="">
-                        <!-- image fleche vers la droite -->
-                    </div>
+                <div class="mini-banner banner-facepacks">
+                    <h2 class="mini-banner__text">Facepacks <br />& Peels</h2>
+                    <img src="/icons/arrow-blue.svg" alt="" class="mini-banner__arrow">
                 </div>
             </div>
         </section>
     </main>
 
+    <!--####################################################################-->
+    <!--############################## Footer ##############################-->
+    <!--####################################################################-->
     <footer>
-        <div class="footer-left-part">
-            <div class="footer-one-row-container">
-                <h4>Shop by Category</h4>
-                <ul>
-                    <li>Skincare</li>
-                    <li>Personal Care</li>
-                    <li>Handbags</li>
-                    <li>Apparels</li>
-                    <li>Watches</li>
-                    <li>Eye Wear</li>
-                    <li>Jewellery</li>
-                </ul>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-row">
+                    <h4 class="footer-row__title">Shop by Category</h4>
+                    <ul>
+                        <li>Skincare</li>
+                        <li>Personal Care</li>
+                        <li>Handbags</li>
+                        <li>Apparels</li>
+                        <li>Watches</li>
+                        <li>Eye Wear</li>
+                        <li>Jewellery</li>
+                    </ul>
+                </div>
+                <div class="footer-row">
+                    <h4 class="footer-row__title">About</h4>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Press</li>
+                    </ul>
+                </div>
+                <div class="footer-row">
+                    <h4 class="footer-row__title">Policy</h4>
+                    <ul>
+                        <li>Return Policy</li>
+                        <li>Terms of Use</li>
+                        <li>Sitemap</li>
+                        <li>Security</li>
+                        <li>Privacy</li>
+                        <li>EPR Compliance</li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-one-row-container">
-                <h4>About</h4>
-                <ul>
-                    <li>Contact Us</li>
-                    <li>About Us</li>
-                    <li>Careers</li>
-                    <li>Press</li>
-                </ul>
-            </div>
-            <div class="footer-one-row-container">
-                <h4>Policy</h4>
-                <ul>
-                    <li>Return Policy</li>
-                    <li>Terms of Use</li>
-                    <li>Sitemap</li>
-                    <li>Security</li>
-                    <li>Privacy</li>
-                    <li>EPR Compliance</li>
-                </ul>
+
+            <div class="footer-right">
+                <div class="footer-icons">
+                    <img src="/icons/fb-icon.svg" alt="">
+                    <img src="/icons/insta-icon.svg" alt="" class="footer-icon">
+                    <img src="/icons/twitter-icon.svg" alt="" class="footer-icon">
+                    <img src="/icons/youtube-icon.svg" alt="" class="footer-icon">
+                </div>
+                <div class="position">
+                    <p>United States</p>
+                </div>
+                <!-- icone copyright et barre de séparation verticale -->
+                <p class="copyright">© | 2021 Cora Leviene All Rights Reserved</p>
             </div>
         </div>
 
-        <div class="footer-right-part">
-            <div class="icons-container">
-                <!-- logo des reseaux sociaux -->
-                <img src="/icons/fb-icon.svg" alt="">
-                <img src="/icons/insta-icon.svg" alt="">
-                <img src="/icons/twitter-icon.svg" alt="">
-                <img src="/icons/youtube-icon.svg" alt="">
-            </div>
-            <div class="position-icon-and-text">
-                <!-- Icone position -->
-                <img src="/icons/position-icon.svg" alt="">
-                <p>United States</p>
-            </div>
-            <!-- icone copyright et barre de séparation verticale -->
-            <p>© | 2021 Cora Leviene All Rights Reserved</p>
-
-
-        </div>
     </footer>
 
 </body>

@@ -1,0 +1,15 @@
+// ##################################################################### //
+// ############################ Banner info ############################ //
+// ##################################################################### //
+.banner-info {
+    text-align: center;
+    font-weight: 400;
+    background-color: rgba(128, 128, 128, 0.130);
+    padding: 15px 0px;
+    margin-bottom: 25px;
+
+    a {
+        color: $secondary-color;
+        text-decoration: underline;
+    }
+}

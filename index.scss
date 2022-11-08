@@ -1,4 +1,10 @@
 @import "./utils/variables";
 @import "./base/base";
 @import "./components/components";
-@import "./layouts/layout";
+@import "./components/banner";
+@import "./components/mini-banner";
+@import "./components/article";
+@import "./components/compagny";
+@import "./layouts/header";
+@import "./layouts/banner-info.scss";
+@import "./layouts/footer";

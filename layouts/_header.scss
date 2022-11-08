@@ -1,0 +1,57 @@
+// ##################################################################### //
+// ############################### Header ############################## //
+// ##################################################################### //
+header {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-col-6 {
+        display: flex;
+}
+    
+.main-logo {
+    margin-right: 32px;
+    width: 108px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+            
+    ul {
+        display: flex;
+
+        li {
+            margin-right: 20px;
+        }
+    }
+}
+
+.search-bar {
+    width: 362px;
+    margin-right: 24px;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.130);
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        padding: 10px 8px;
+        cursor: pointer;
+    }
+}
+
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icon {
+    margin-right: 20px;
+}
