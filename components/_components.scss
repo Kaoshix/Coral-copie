@@ -15,43 +15,50 @@
     display: flex;
     align-items: center;
     overflow: hidden;
+}
+
+.main-banner-content {
+    width: 759px;
+    background-color: #dededeb0;
+    border-radius: 25px;
+    position: absolute;
+    right: -50px;
+    padding: 40px 0 50px 50px;
 
     &__texts{
-        width: 759px;
-        background-color: #dededeb0;
-        border-radius: 25px;
-        position: absolute;
-        right: -50px;
-
         h1 {
             font-weight: 800;
             font-size: 60px;
             color: $secondary-color;
-            margin: 40px 0 20px 47px;
+            line-height: 1.4;
         }
 
         p {
             font-weight: 500;
             color: $secondary-color;
             font-size: 2rem;
-            line-height: 38px;
-            margin: 0 0 30px 47px;
+            line-height: 1.4;
+            margin-bottom: 45px;
         }
     }
 
     &__button {
-        margin: 0 0 50px 47px;
-        padding: 10px 37px 10px 37px;
+        padding: 12px 37px 12px 70px;
         border-radius: 8px;
         background-color: $secondary-color;
         color: white;
         border: none;
-        display: flex;
-        align-items: center;
+        position: relative;
+        transition: background-color 150ms;
 
-        span {
-            padding-left: 8px;
-            color: white;
+        &::before {
+            content:url("/icons/arrow-icon-top-banner.svg");
+            position: absolute;
+            left: 35px;
+            top: 10px;
+        }
+        &:hover {
+            background-color: (#97451F);
         }
     }
 }
@@ -79,10 +86,13 @@
     .view-all {
         font-weight: 600;
         color: $secondary-color;
+        padding-right: 25px;
+        position: relative;
 
         &::after {
-            content:">";
-            padding-left: 8px;
+            content:url("/icons/chevron-view-all.svg");
+            position: absolute;
+            right: 2px;
         }
     }
 }

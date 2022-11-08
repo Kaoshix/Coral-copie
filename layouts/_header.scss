@@ -28,6 +28,10 @@ header {
 
         li {
             margin-right: 20px;
+
+            a:hover {
+                color: $secondary-color;
+            }
         }
     }
 }
@@ -50,8 +54,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .header-icon {
     margin-right: 20px;
+}
+
+.shop-icon::after {
+    content: url("/icons/orange-dot.svg");
+    position: absolute;
+    right: -2px;
+    top: 10px;
 }

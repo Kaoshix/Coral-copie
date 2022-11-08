@@ -36,9 +36,13 @@
                 <input type="search" placeholder="Search for products or brands....." class="search-bar__input">
             </div>
             <div class="header-icons">
-                <a href="#"><img src="/icons/heart-icon.svg" alt="heart-icon" class="header-icon"></a>
-                <a href="#"><img src="/icons/profil-icon.svg" alt="profil-icon" class="header-icon"></a>
-                <a href="#"><img src="/icons/shop-icon.svg" alt="shop-icon"></a>
+                <div class="header-icon">
+                    <a href="#"><img src="/icons/fav-icon.svg" alt="fav-icon"></a>
+                </div>
+                <div class="header-icon">
+                    <a href="#"><img src="/icons/profil-icon.svg" alt="profil-icon"></a>
+                </div>
+                <a href="#" class="shop-icon"><img src="/icons/shop-icon.svg" alt="shop-icon"></a>
             </div>
         </div>
     </header>
@@ -56,13 +60,12 @@
         <!--####################################################################-->
         <section class="main-banner-section">
             <div class="banner main-banner">
-                <div class="main-banner__texts">
-                    <h1>Carry your Funk</h1>
-                    <p>Trendly handbags collection for your <br /> party animal</p>
-                    <button class="main-banner__button">
-                        <img src="/icons/arrow-icon-top-banner.svg" alt="">
-                        <span>See more</span>
-                    </button>
+                <div class="main-banner-content">
+                    <div class="main-banner-content__texts">
+                        <h1>Carry your Funk</h1>
+                        <p>Trendly handbags collection for your <br /> party animal</p>
+                    </div>
+                    <a href="#" class="main-banner-content__button">See more</a>
                 </div>
             </div>
         </section>
@@ -73,16 +76,21 @@
         <section class="new-arrivals-section">
             <div class="news-head">
                 <h2>New Arrivals</h2>
-                <p class="view-all">View All</p>
+                <a href="#" class="view-all">View All</a>
             </div>
 
             <div class="new-articles">
 
                 <div class="article">
-                    <img src="/img/first-bag-new.png" alt="" class="article__image">
+                    <a href="#"><img src="/img/first-bag-new.png" alt="" class="article__image"></a>
                     <div class="info-head">
-                        <h3 class="article__name">Grande</h3>
-                        <img src="/icons/heart-wish.svg" alt="">
+                        <a href="#" class="article__name">Grande</a>
+                        <svg class="heart" width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 20.5415C12 20.5415 2.625 15.2915 2.625 8.91651C2.62519 7.78976 3.01561 6.69785 3.72989 5.82643C4.44416 4.95501 5.4382 4.35786 6.54299 4.13652C7.64778 3.91517 8.79514 4.08329 9.78999 4.61229C10.7848 5.14129 11.5658 5.99852 12 7.03823L12 7.03824C12.4342 5.99853 13.2152 5.1413 14.21 4.6123C15.2049 4.08329 16.3522 3.91517 17.457 4.13652C18.5618 4.35786 19.5558 4.95501 20.2701 5.82643C20.9844 6.69785 21.3748 7.78976 21.375 8.91651C21.375 15.2915 12 20.5415 12 20.5415Z"
+                                stroke="#13101E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
                     <div class="article__subtitle">
                         <p><span>Blossom Pouch</span></p>
@@ -91,10 +99,15 @@
                 </div>
 
                 <div class="article">
-                    <img src="img/second-bag-new.png" alt="" class="article__image">
+                    <a href="#"><img src="img/second-bag-new.png" alt="" class="article__image"></a>
                     <div class="info-head">
-                        <h3 class="article__name">Coach</h3>
-                        <img src="/icons/heart-wish.svg" alt="">
+                        <a href="#" class="article__name">Coach</a>
+                        <svg class="heart" width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 20.5415C12 20.5415 2.625 15.2915 2.625 8.91651C2.62519 7.78976 3.01561 6.69785 3.72989 5.82643C4.44416 4.95501 5.4382 4.35786 6.54299 4.13652C7.64778 3.91517 8.79514 4.08329 9.78999 4.61229C10.7848 5.14129 11.5658 5.99852 12 7.03823L12 7.03824C12.4342 5.99853 13.2152 5.1413 14.21 4.6123C15.2049 4.08329 16.3522 3.91517 17.457 4.13652C18.5618 4.35786 19.5558 4.95501 20.2701 5.82643C20.9844 6.69785 21.3748 7.78976 21.375 8.91651C21.375 15.2915 12 20.5415 12 20.5415Z"
+                                stroke="#13101E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
                     <div class="article__subtitle">
                         <p><span>Leather Coach Bag</span></p>
@@ -103,10 +116,15 @@
                 </div>
 
                 <div class="article">
-                    <img src="img/third-bag-new.png" alt="" class="article__image">
+                    <a href="#"><img src="img/third-bag-new.png" alt="" class="article__image"></a>
                     <div class="info-head">
-                        <h3 class="article__name">Remus</h3>
-                        <img src="/icons/heart-wish.svg" alt="">
+                        <a href="#" class="article__name">Remus</a>
+                        <svg class="heart" width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 20.5415C12 20.5415 2.625 15.2915 2.625 8.91651C2.62519 7.78976 3.01561 6.69785 3.72989 5.82643C4.44416 4.95501 5.4382 4.35786 6.54299 4.13652C7.64778 3.91517 8.79514 4.08329 9.78999 4.61229C10.7848 5.14129 11.5658 5.99852 12 7.03823L12 7.03824C12.4342 5.99853 13.2152 5.1413 14.21 4.6123C15.2049 4.08329 16.3522 3.91517 17.457 4.13652C18.5618 4.35786 19.5558 4.95501 20.2701 5.82643C20.9844 6.69785 21.3748 7.78976 21.375 8.91651C21.375 15.2915 12 20.5415 12 20.5415Z"
+                                stroke="#13101E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
                     <div class="article__subtitle">
                         <p><span>Brown Strap Bag</span></p>
@@ -115,10 +133,15 @@
                 </div>
 
                 <div class="article">
-                    <img src="img/fourth-bag-new.png" alt="" class="article__image">
+                    <a href="#"><img src="img/fourth-bag-new.png" alt="" class="article__image"></a>
                     <div class="info-head">
-                        <h3 class="article__name">Boujee</h3>
-                        <img src="/icons/heart-wish.svg" alt="">
+                        <a href="#" class="article__name">Boujee</a>
+                        <svg class="heart" width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 20.5415C12 20.5415 2.625 15.2915 2.625 8.91651C2.62519 7.78976 3.01561 6.69785 3.72989 5.82643C4.44416 4.95501 5.4382 4.35786 6.54299 4.13652C7.64778 3.91517 8.79514 4.08329 9.78999 4.61229C10.7848 5.14129 11.5658 5.99852 12 7.03823L12 7.03824C12.4342 5.99853 13.2152 5.1413 14.21 4.6123C15.2049 4.08329 16.3522 3.91517 17.457 4.13652C18.5618 4.35786 19.5558 4.95501 20.2701 5.82643C20.9844 6.69785 21.3748 7.78976 21.375 8.91651C21.375 15.2915 12 20.5415 12 20.5415Z"
+                                stroke="#13101E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
                     <div class="article__subtitle">
                         <p><span>Black Bag</span></p>
@@ -136,22 +159,22 @@
             <div class="collection-articles">
 
                 <div class="article article--collection">
-                    <img src="img/first-collection.png" alt="" class="article__image">
+                    <a href="#"><img src="img/first-collection.png" alt="" class="article__image"></a>
                     <h3 class="article__name--collection">Personnal Care</h3>
                 </div>
 
                 <div class="article article--collection">
-                    <img src="img/second-collection.png" alt="" class="article__image">
+                    <a href="#"><img src="img/second-collection.png" alt="" class="article__image"></a>
                     <h3 class="article__name--collection">Handbags</h3>
                 </div>
 
                 <div class="article article--collection">
-                    <img src="img/third-collection.png" alt="" class="article__image">
+                    <a href="#"><img src="img/third-collection.png" alt="" class="article__image"></a>
                     <h3 class="article__name--collection">Wrist Watches</h3>
                 </div>
 
                 <div class="article article--collection">
-                    <img src="img/fourth-collection.png" alt="" class="article__image">
+                    <a href="#"><img src="img/fourth-collection.png" alt="" class="article__image"></a>
                     <h3 class="article__name--collection">Sun glasses</h3>
                 </div>
             </div>
@@ -163,29 +186,29 @@
         <section class="company-list-section">
             <h2>Shop by Brands</h2>
             <div class="companies-list">
-                <div class="compagny">
+                <a href="#" class="compagny">
                     <img src="/img/zara-logo.png" alt="" class="compagny__image">
-                </div>
+                </a>
 
-                <div class="compagny">
+                <a href="#" class="compagny">
                     <img src="/img/dg-logo.png" alt="" class="compagny__image">
-                </div>
+                </a>
 
-                <div class="compagny">
+                <a href="#" class="compagny">
                     <img src="/img/hm-logo.png" alt="" class="compagny__image">
-                </div>
+                </a>
 
-                <div class="compagny">
+                <a href="#" class="compagny">
                     <img src="/img/chanel-logo.png" alt="" class="compagny__image">
-                </div>
+                </a>
 
-                <div class="compagny">
+                <a href="#" class="compagny">
                     <img src="/img/prada-logo.png" alt="" class="compagny__image">
-                </div>
+                </a>
 
-                <div class="compagny">
+                <a href="#" class="compagny">
                     <img src="/img/biba-logo.png" alt="" class="compagny__image">
-                </div>
+                </a>
             </div>
         </section>
 
@@ -263,13 +286,12 @@
                 <div class="position">
                     <p>United States</p>
                 </div>
-                <!-- icone copyright et barre de séparation verticale -->
                 <p class="copyright">© | 2021 Cora Leviene All Rights Reserved</p>
             </div>
         </div>
-
     </footer>
 
+    <script src="/index.js"></script>
 </body>
 
 </html>
