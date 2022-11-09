@@ -28,7 +28,7 @@ footer {
         color: rgb(232, 230, 233);
     }
 
-    ul li {
+    ul li a {
         color: rgb(182, 182, 182);
         font-weight: 500;
         line-height: 2;
@@ -46,6 +46,10 @@ footer {
 
     .footer-icon {
         margin-left: 8px;
+
+        &:hover circle {
+            fill: white;
+        }
     }
 }
 
@@ -53,7 +57,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     
-    p {
+    a {
         color: white;
         line-height: 2;
 

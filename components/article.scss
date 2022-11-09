@@ -44,4 +44,25 @@
 
 .article--collection {
     position: relative;
+    display: block;
+    width: 286px;
+    height: 286px;
+
+    img {
+        margin: 0;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 286px;
+        height: 286px;
+        border-radius: 10px;
+        background: linear-gradient(#c4c4c400, #03181a46);
+    }
 }
+
+
+

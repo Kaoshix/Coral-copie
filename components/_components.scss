@@ -49,7 +49,7 @@
         color: white;
         border: none;
         position: relative;
-        transition: background-color 150ms;
+        transition: background-color 100ms;
 
         &::before {
             content:url("/icons/arrow-icon-top-banner.svg");
@@ -161,10 +161,15 @@
 
 .banner-makeup {
     background: url("/img/banner-makeup.png") no-repeat center;
-    background-size: cover;
+    background-size: 100%;
     margin: 0 auto;
     margin-bottom: 40px;
     padding-left: 40px;
+
+    &:hover {
+        background-size: 105%;
+        transition: background-size 200ms;
+    }
 
     .banner-makeup__texts {
         padding-top: 90px;
@@ -182,28 +187,5 @@
             line-height: 1.3;
             color: #97451F;
         }
-    }
-}
-
-.mini-banners {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-.banner-skincare {
-    background: url("/img/banner-skin.png") no-repeat center;
-    background-size: cover;
-    position: relative;
-}
-    
-.banner-facepacks {
-    background: url("/img/banner-skin-2.png") no-repeat center;
-    background-size: cover;
-    position: relative;
-
-    .mini-banner__text {
-        color: $secondary-color;
     }
 }
